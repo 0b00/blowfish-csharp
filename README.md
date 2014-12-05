@@ -31,7 +31,10 @@ Author: Russ Young
 
 ## Note 1
 Had this project on the local drive, wanted to host it somewhere safe.
-Don't know where I accured the original source for this.
+Don't know where I acquired the original source for this.
+
+Have not tested this code before uploading here.
+Use it on your own risk.
 
 ## Note 2
 Note: Only documented usage for strings.
