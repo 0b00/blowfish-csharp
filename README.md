@@ -1,5 +1,7 @@
 blowfish-csharp
 ===============
+[![Build Status](https://travis-ci.org/b1thunt3r/blowfish-csharp.svg?branch=master)](https://travis-ci.org/b1thunt3r/blowfish-csharp) Test fails. Due to Microsoft Test framework.  
+[![Build status](https://ci.appveyor.com/api/projects/status/2yyovttq2ibfcqq2?svg=true)](https://ci.appveyor.com/project/b1thunt3r/blowfish-csharp)
 
 # License
 ```
