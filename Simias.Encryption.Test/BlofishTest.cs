@@ -1,25 +1,21 @@
-﻿using System;
-using System.Text;
-using System.Collections.Generic;
-using System.Linq;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using NUnit.Framework;
 
 namespace Simias.Encryption.Test
 {
-    [TestClass]
+    [TestFixture]
     public class BlofishTest
     {
         private string salt = "{C42B9D23-F6F8-4AAA-8D1E-00F3A488A507}";
         private string value = "Test";
         private string encrypted = "J5APsWH6FOs=";
 
-        [TestMethod]
+        [TestCase]
         public void EncryptString()
         {
             Blowfish blowfish = new Blowfish(salt);
             Assert.AreEqual(blowfish.Encipher(value), encrypted);
         }
-        [TestMethod]
+        [TestCase]
         public void DecryptString()
         {
             Blowfish blowfish = new Blowfish(salt);

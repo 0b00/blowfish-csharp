@@ -5,8 +5,6 @@ VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simias.Encryption", "Simias.Encryption\Simias.Encryption.csproj", "{8C9EBC9E-B8BF-4BB6-9156-47ECEC92BD85}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simias.Encryption.Test", "Simias.Encryption.Test\Simias.Encryption.Test.csproj", "{03888342-9091-4070-B900-026CA2F5D894}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{97045F53-2F93-4000-A47F-C887DB7ECF8D}"
 	ProjectSection(SolutionItems) = preProject
 		Local.testsettings = Local.testsettings
@@ -14,7 +12,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simias.Encryption.Nunit", "Simias.Encryption.Nunit\Simias.Encryption.Nunit.csproj", "{5DBC4824-2429-44B4-A8F3-675F21EBEEEC}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{A1F36EDD-807D-4EDA-B42E-C71C65D941AC}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simias.Encryption.Test", "Simias.Encryption.Test\Simias.Encryption.Test.csproj", "{B00D21EA-6433-4EEF-9425-DB7FC6D7F1BD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,14 +29,10 @@ Global
 		{8C9EBC9E-B8BF-4BB6-9156-47ECEC92BD85}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8C9EBC9E-B8BF-4BB6-9156-47ECEC92BD85}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8C9EBC9E-B8BF-4BB6-9156-47ECEC92BD85}.Release|Any CPU.Build.0 = Release|Any CPU
-		{03888342-9091-4070-B900-026CA2F5D894}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{03888342-9091-4070-B900-026CA2F5D894}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{03888342-9091-4070-B900-026CA2F5D894}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{03888342-9091-4070-B900-026CA2F5D894}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5DBC4824-2429-44B4-A8F3-675F21EBEEEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5DBC4824-2429-44B4-A8F3-675F21EBEEEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5DBC4824-2429-44B4-A8F3-675F21EBEEEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5DBC4824-2429-44B4-A8F3-675F21EBEEEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B00D21EA-6433-4EEF-9425-DB7FC6D7F1BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B00D21EA-6433-4EEF-9425-DB7FC6D7F1BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B00D21EA-6433-4EEF-9425-DB7FC6D7F1BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B00D21EA-6433-4EEF-9425-DB7FC6D7F1BD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
