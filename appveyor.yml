@@ -1,3 +1,7 @@
 version: 1.0.{build}
 build:
   verbosity: minimal
+test:
+  # assemblies to test - optional
+  assemblies:
+    - '**\*.Test.dll'
