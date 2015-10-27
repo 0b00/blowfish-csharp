@@ -2,6 +2,10 @@ blowfish-csharp
 ===============
 [![Build Status](https://travis-ci.org/b1thunt3r/blowfish-csharp.svg?branch=master)](https://travis-ci.org/b1thunt3r/blowfish-csharp) [![Build status](https://ci.appveyor.com/api/projects/status/2yyovttq2ibfcqq2?svg=true)](https://ci.appveyor.com/project/b1thunt3r/blowfish-csharp)
 
+#Release
+[Here](https://github.com/b1thunt3r/blowfish-csharp/releases) you can find a pre-release version of source code as zip or tar ball. Will add a nuget package and dll sometime soon.
+
+
 # License
 ```
 Copyright (c) 2007 Novell, Inc.
