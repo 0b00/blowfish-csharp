@@ -32,7 +32,7 @@ Author: Russ Young
   reference implementation. http://www.schneier.com/blowfish.html
 ```
 
-#Notes
+# Notes
 
 ## Note 1
 Had this project on the local drive, wanted to host it somewhere safe.
