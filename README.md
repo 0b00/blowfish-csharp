@@ -2,7 +2,7 @@ blowfish-csharp
 ===============
 [![Build Status](https://travis-ci.org/b1thunt3r/blowfish-csharp.svg?branch=master)](https://travis-ci.org/b1thunt3r/blowfish-csharp) [![Build status](https://ci.appveyor.com/api/projects/status/2yyovttq2ibfcqq2?svg=true)](https://ci.appveyor.com/project/b1thunt3r/blowfish-csharp)
 
-#Release
+# Release
 [Here](https://github.com/b1thunt3r/blowfish-csharp/releases) you can find a pre-release version of source code as zip or tar ball. Will add a nuget package and dll sometime soon.
 
 
@@ -32,7 +32,7 @@ Author: Russ Young
   reference implementation. http://www.schneier.com/blowfish.html
 ```
 
-#Notes
+# Notes
 
 ## Note 1
 Had this project on the local drive, wanted to host it somewhere safe.
