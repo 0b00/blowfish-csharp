@@ -3,6 +3,8 @@ blowfish-csharp
 
 [![Build Status](https://travis-ci.org/b1thunt3r/blowfish-csharp.svg?branch=master)](https://travis-ci.org/b1thunt3r/blowfish-csharp) [![Build status](https://ci.appveyor.com/api/projects/status/2yyovttq2ibfcqq2?svg=true)](https://ci.appveyor.com/project/b1thunt3r/blowfish-csharp)
 
+BlowFish encryption library written in C# for .NET Framework 2.0.
+
 # Release
 
 No binary releases for the proeject.
